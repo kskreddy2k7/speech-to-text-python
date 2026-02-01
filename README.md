@@ -1,12 +1,12 @@
-
 # 🎙️ Speech to Text Converter (Python)
 
-This project converts human speech into text using Python.
+A simple Python application that converts spoken audio into text using SpeechRecognition.
 
 ## Features
-- Voice to text conversion
-- Supports English (en-IN)
-- Free and beginner friendly
+- Converts speech from audio file (.wav) to text
+- Uses Google Speech API
+- Handles unclear audio gracefully with exception handling
+- Beginner-friendly & free
 
 ## Technologies Used
 - Python
@@ -14,12 +14,11 @@ This project converts human speech into text using Python.
 
 ## How to Run
 1. Install Python
-2. Install libraries:
-   pip install -r requirements.txt
-3. Run:
+2. Install dependency:
+   pip install SpeechRecognition
+3. Place a WAV file named `sample.wav` in the project folder
+4. Run:
    python speech_to_text.py
 
-## Use Cases
-- Voice notes
-- Student mini project
-- Accessibility
+## Notes
+The program gracefully handles unclear audio using exception handling.
